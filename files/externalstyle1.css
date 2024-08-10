@@ -1,0 +1,103 @@
+.FirstDiv{
+width: 100%; text-align: center; padding: lem;
+}
+
+.SecDiv{
+width: 80%; height: 300px; text-align: center; background-color: grey; margin: auto; padding-top: 20px;
+}
+
+.TrdDiv{
+width : 20%; height: 200px; background-color: white; float:left; padding: 20px; margin-left: 105px; text-align: center;
+}
+
+.TrdDiv h3{
+   display: block;
+   
+   margin:  auto;
+   padding: 20px 20px;
+   background-color: lightblue;
+  
+   cursor:pointer; 
+  
+
+   }
+.TrdDiv h3:hover{
+   filter: brightness(85%);
+
+}
+.FrthDiv{
+width: 20%; height: 200px; background-color: blue; float: right; padding: 20px; margin-right: 80px; text-align: center;
+}
+
+
+.FrthDiv h3{
+   display: block;
+  
+   margin:  auto 10px;
+   padding: 19px 20px;
+   background-color: grey;
+   color: black;
+   cursor:pointer; 
+   
+
+   }
+
+.FrthDiv h3:hover{
+   filter: brightness(85%);
+
+}
+
+
+
+.FthDiv{
+width: 20%;
+            height: 200px;
+            background-color: lightblue;
+            float: left;
+            padding: 20px;
+            margin-left: 70px;
+            text-align: center;;
+}
+
+
+.FthDiv h3{
+   display: block;
+  
+   margin:  auto 10px;
+   padding: 19px 20px;
+   background-color: white;
+   
+   cursor:pointer; 
+   
+
+   }
+
+.FthDiv h3:hover{
+   filter: brightness(85%);
+
+}
+
+
+body{background-color: lightgrey;}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s, visibility 1s;
+}
+
+.visible {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 1s, visibility 1s;
+}
+
+@media only screen and (max-width: 575px) {
+  .TrdDiv, .FrthDiv, .FthDiv {
+    float: none;
+    height: auto;
+    margin:10px auto;
+    text-align: center;
+    width: 90%;
+  }
+}
